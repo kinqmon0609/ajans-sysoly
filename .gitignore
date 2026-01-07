@@ -1,0 +1,49 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Next.js
+/.next/
+/out/
+
+# Production
+/build
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment Files (IMPORTANT!)
+.env
+.env*.local
+.env.production
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# SQLite Database Files (Local Only - DO NOT COMMIT!)
+*.db
+*.db-shm
+*.db-wal
+
+# Backups
+/backups
+
+# Data exports (optional - remove if you want to commit)
+/data/*.json
+
+# Uploads (optional)
+# /public/uploads/*

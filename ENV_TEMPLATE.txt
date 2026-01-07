@@ -1,0 +1,42 @@
+# cPanel Environment Variables Template
+# Bu dosyayı cPanel'de .env.local olarak kullanın
+# Tüm değerleri kendi bilgilerinizle değiştirin
+
+# Database Configuration (cPanel MySQL)
+DB_HOST="localhost"
+DB_USER="your_cpanel_db_user"
+DB_PASSWORD="your_cpanel_db_password"
+DB_NAME="your_cpanel_db_name"
+DB_PORT="3306"
+
+# Next.js Configuration
+NEXTAUTH_URL="https://yourdomain.com"
+NEXTAUTH_SECRET="your-super-secret-key-change-this-in-production-min-32-chars"
+
+# App URL (Domain adınızı yazın)
+NEXT_PUBLIC_APP_URL="https://yourdomain.com"
+NEXT_PUBLIC_SITE_URL="https://yourdomain.com"
+
+# JWT Secret (32 karakter minimum)
+JWT_SECRET="your-jwt-secret-key-change-in-production-min-32-chars"
+
+# Email Configuration (cPanel Email)
+EMAIL_SERVICE="nodemailer"
+SMTP_HOST="mail.yourdomain.com"
+SMTP_PORT="587"
+SMTP_SECURE="false"
+SMTP_USER="noreply@yourdomain.com"
+SMTP_PASSWORD="your-email-password"
+EMAIL_FROM="noreply@yourdomain.com"
+
+# Optional: Google Analytics
+# GA_PROPERTY_ID="your-ga4-property-id"
+
+# Optional: Unsplash API
+# UNSPLASH_ACCESS_KEY="your-unsplash-access-key"
+
+# Optional: Twilio (SMS)
+# TWILIO_ACCOUNT_SID="your-twilio-account-sid"
+# TWILIO_AUTH_TOKEN="your-twilio-auth-token"
+# TWILIO_PHONE_NUMBER="+1234567890"
+
