@@ -2,13 +2,7 @@ import { type NextRequest, NextResponse } from "next/server"
 import { getPages } from "@/lib/mysql/queries"
 import pool from "@/lib/mysql/client"
 
-<<<<<<< HEAD
-import dbPool from "@/lib/mysql/client"
-
-// Gerçek verilerden sayfalar - TAM İÇERİKLER
-=======
 // Gerçek verilerden sayfalar - TAM İÇERİKLER (DEPRECATED - now using database)
->>>>>>> e25526c
 const mockPages = [
   {
     id: '1c6f7298-a6b2-11f0-af23-eb6435dcb1e1',
@@ -100,22 +94,6 @@ export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams
     const includeInactive = searchParams.get("includeInactive") === "true"
-<<<<<<< HEAD
-    
-    console.log("🔍 Pages API çağrıldı")
-    
-    // Önce gerçek veritabanını dene
-    const pool = dbPool
-    const [rows] = await pool.execute(`
-      SELECT * FROM pages 
-      ${includeInactive ? '' : 'WHERE is_active = true'} 
-      ORDER BY display_order ASC
-    `)
-    
-    console.log("✅ Pages veritabanından alındı:", (rows as any).length)
-    return NextResponse.json(rows)
-    
-=======
 
     // Fetch from database
     const allPages = await getPages()
@@ -124,7 +102,6 @@ export async function GET(request: NextRequest) {
     const filteredPages = includeInactive ? allPages : allPages.filter((page: any) => page.is_active)
 
     return NextResponse.json(filteredPages)
->>>>>>> e25526c
   } catch (error) {
     console.error("❌ Pages fetch error:", error)
     console.log("🔄 Mock data kullanılıyor")
@@ -143,13 +120,8 @@ export async function POST(request: NextRequest) {
     const contentJson = JSON.stringify(body.content || [])
 
     const [result] = await pool.execute(`
-<<<<<<< HEAD
-      INSERT INTO pages (title, slug, description, content, meta_title, meta_description, meta_keywords, is_active, sort_order, created_at, updated_at)
-      VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, NOW(), NOW())
-=======
       INSERT INTO pages (title, slug, description, content, meta_title, meta_description, meta_keywords, is_active, sort_order)
       VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
->>>>>>> e25526c
     `, [
       body.title,
       body.slug,

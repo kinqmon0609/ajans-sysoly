@@ -30,83 +30,6 @@ export async function getDemos(limit = 50, offset = 0) {
     `;
 
     const [rows] = await pool.execute(query);
-<<<<<<< HEAD
-    
-    return (rows as any[]).map(row => {
-      // Images JSON string'ini parse et ve ilk resmi thumbnail olarak al
-      let thumbnail = '/placeholder.svg';
-      try {
-        if (row.thumbnail && typeof row.thumbnail === 'string') {
-          // JSON'ın tamamlanmış olup olmadığını kontrol et
-          let jsonString = row.thumbnail;
-          
-          // JSON string'inin geçerli olup olmadığını kontrol et
-          if (jsonString.length > 0 && jsonString.startsWith('[')) {
-            // JSON kesilmişse, son kısmı tamamla
-            if (!jsonString.endsWith(']')) {
-              const lastBracket = jsonString.lastIndexOf(']');
-              if (lastBracket > 0) {
-                jsonString = jsonString.substring(0, lastBracket + 1);
-              } else {
-                // Hiç ] yoksa, basit bir array oluştur
-                const firstQuote = jsonString.indexOf('"');
-                if (firstQuote > 0) {
-                  const secondQuote = jsonString.indexOf('"', firstQuote + 1);
-                  if (secondQuote > firstQuote) {
-                    const firstImage = jsonString.substring(firstQuote + 1, secondQuote);
-                    if (firstImage && !firstImage.startsWith('data:')) {
-                      thumbnail = firstImage;
-                    }
-                  }
-                }
-                // Early return for malformed JSON
-                return {
-                  id: row.id,
-                  title: row.title,
-                  description: row.description,
-                  category: row.category,
-                  price: row.price,
-                  demo_url: row.demo_url,
-                  is_active: row.is_active,
-                  created_at: row.created_at,
-                  updated_at: row.updated_at,
-                  thumbnail: thumbnail,
-                  shortDescription: row.description || ''
-                };
-              }
-            }
-            
-            // JSON parse etmeyi dene
-            const images = JSON.parse(jsonString);
-            if (Array.isArray(images) && images.length > 0) {
-              // İlk resmi al, eğer base64 ise placeholder kullan
-              const firstImage = images[0];
-              if (typeof firstImage === 'string' && !firstImage.startsWith('data:')) {
-                thumbnail = firstImage;
-              }
-            }
-          }
-        }
-      } catch (error) {
-        // JSON parsing hatası - sessizce devam et
-        console.warn('JSON parsing failed, using placeholder:', error.message);
-      }
-
-      return {
-        id: row.id,
-        title: row.title,
-        description: row.description,
-        category: row.category,
-        price: row.price,
-        demo_url: row.demo_url,
-        is_active: row.is_active,
-        created_at: row.created_at,
-        updated_at: row.updated_at,
-        thumbnail: thumbnail,
-        shortDescription: row.description || ''
-      };
-    });
-=======
 
     return (rows as any[]).map(row => ({
       id: row.id,
@@ -121,7 +44,6 @@ export async function getDemos(limit = 50, offset = 0) {
       thumbnail: row.thumbnail || '/placeholder.svg',
       shortDescription: row.description || ''
     }));
->>>>>>> e25526c
   } catch (error) {
     console.error('Error in getDemos:', error);
     throw error;
@@ -154,83 +76,6 @@ export async function getAdminDemos(limit = 100, offset = 0) {
     `;
 
     const [rows] = await pool.execute(query);
-<<<<<<< HEAD
-    
-    return (rows as any[]).map(row => {
-      // Images JSON string'ini parse et ve ilk resmi thumbnail olarak al
-      let thumbnail = '/placeholder.svg';
-      try {
-        if (row.thumbnail && typeof row.thumbnail === 'string') {
-          // JSON'ın tamamlanmış olup olmadığını kontrol et
-          let jsonString = row.thumbnail;
-          
-          // JSON string'inin geçerli olup olmadığını kontrol et
-          if (jsonString.length > 0 && jsonString.startsWith('[')) {
-            // JSON kesilmişse, son kısmı tamamla
-            if (!jsonString.endsWith(']')) {
-              const lastBracket = jsonString.lastIndexOf(']');
-              if (lastBracket > 0) {
-                jsonString = jsonString.substring(0, lastBracket + 1);
-              } else {
-                // Hiç ] yoksa, basit bir array oluştur
-                const firstQuote = jsonString.indexOf('"');
-                if (firstQuote > 0) {
-                  const secondQuote = jsonString.indexOf('"', firstQuote + 1);
-                  if (secondQuote > firstQuote) {
-                    const firstImage = jsonString.substring(firstQuote + 1, secondQuote);
-                    if (firstImage && !firstImage.startsWith('data:')) {
-                      thumbnail = firstImage;
-                    }
-                  }
-                }
-                // Early return for malformed JSON
-                return {
-                  id: row.id,
-                  title: row.title,
-                  description: row.description,
-                  category: row.category,
-                  price: row.price,
-                  demo_url: row.demo_url,
-                  is_active: row.is_active,
-                  created_at: row.created_at,
-                  updated_at: row.updated_at,
-                  thumbnail: thumbnail,
-                  shortDescription: row.description || ''
-                };
-              }
-            }
-            
-            // JSON parse etmeyi dene
-            const images = JSON.parse(jsonString);
-            if (Array.isArray(images) && images.length > 0) {
-              // İlk resmi al, eğer base64 ise placeholder kullan
-              const firstImage = images[0];
-              if (typeof firstImage === 'string' && !firstImage.startsWith('data:')) {
-                thumbnail = firstImage;
-              }
-            }
-          }
-        }
-      } catch (error) {
-        // JSON parsing hatası - sessizce devam et
-        console.warn('JSON parsing failed, using placeholder:', error.message);
-      }
-
-      return {
-        id: row.id,
-        title: row.title,
-        description: row.description,
-        category: row.category,
-        price: row.price,
-        demo_url: row.demo_url,
-        is_active: row.is_active,
-        created_at: row.created_at,
-        updated_at: row.updated_at,
-        thumbnail: thumbnail,
-        shortDescription: row.description || ''
-      };
-    });
-=======
 
     return (rows as any[]).map(row => ({
       id: row.id,
@@ -245,7 +90,6 @@ export async function getAdminDemos(limit = 100, offset = 0) {
       thumbnail: row.thumbnail || '/placeholder.svg',
       shortDescription: row.description || ''
     }));
->>>>>>> e25526c
   } catch (error) {
     console.error('Error in getAdminDemos:', error);
     throw error;
@@ -419,10 +263,6 @@ export async function deleteDemo(id: string) {
   return result;
 }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> e25526c
 export async function getCategoryById(id: string) {
   const [rows] = await pool.execute(`
     SELECT * FROM categories WHERE id = ?
@@ -495,10 +335,6 @@ export async function getPages() {
   try {
     const [rows] = await pool.execute(`
       SELECT * FROM pages 
-<<<<<<< HEAD
-      WHERE is_active = true
-=======
->>>>>>> e25526c
       ORDER BY sort_order ASC, created_at DESC
     `);
 
@@ -764,15 +600,11 @@ export async function getBlogPosts(publishedOnly = false) {
     // Use blog table instead of blog_posts
     let query = `SELECT * FROM blog ORDER BY created_at DESC`;
     if (publishedOnly) {
-<<<<<<< HEAD
-      query = `SELECT * FROM blog WHERE is_active = true ORDER BY created_at DESC`;
-=======
       query = `SELECT bp.*, bc.name as category_name, bc.slug as category_slug 
                FROM blog_posts bp 
                LEFT JOIN blog_categories bc ON bp.category_id = bc.id 
                WHERE bp.status = 'published' 
                ORDER BY bp.published_at DESC`;
->>>>>>> e25526c
     }
     const [rows] = await pool.execute(query);
     return rows;

@@ -55,13 +55,8 @@ export function Header() {
           const activeItems = items.filter((item: MenuItem) => item.is_active)
 
           setMenuItems(activeItems)
-<<<<<<< HEAD
-          
-          // Cache'e kaydet
-=======
 
           // Cache'e kaydet (sadece gerekli field'ları - boyut optimizasyonu)
->>>>>>> e25526c
           if (typeof window !== 'undefined') {
             try {
               // Minimal field'lar ile cache boyutunu azalt

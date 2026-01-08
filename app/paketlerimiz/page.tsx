@@ -191,16 +191,6 @@ export default function PackagesPage() {
 
                     <CardContent className="flex-1 px-6">
                       <ul className="space-y-3">
-<<<<<<< HEAD
-                        {(typeof pkg.features === 'string' ? JSON.parse(pkg.features) : pkg.features)?.map((feature, idx) => (
-                          <li key={idx} className="flex items-start gap-3 group">
-                            <div className="mt-0.5 rounded-full bg-primary/10 p-1 group-hover:bg-primary/20 transition-colors">
-                              <Check className="h-4 w-4 text-primary" />
-                            </div>
-                            <span className="text-sm leading-relaxed">{feature}</span>
-                          </li>
-                        ))}
-=======
                         {(() => {
                           // Handle features as either array or JSON string
                           let featuresList: string[] = []
@@ -223,7 +213,6 @@ export default function PackagesPage() {
                             </li>
                           ))
                         })()}
->>>>>>> e25526c
                       </ul>
                     </CardContent>
 
