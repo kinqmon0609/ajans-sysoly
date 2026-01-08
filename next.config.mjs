@@ -24,24 +24,16 @@ const nextConfig = {
   reactStrictMode: process.env.NODE_ENV === 'production',
   compress: true,
   poweredByHeader: false,
-  
-  // Output optimizasyonu - Netlify için standalone
-  output: 'standalone',
-  
+
   // External packages
   serverExternalPackages: ['mysql2'],
-  
-  // Experimental optimizations
-  experimental: {
-    optimizeCss: false, // TailwindCSS native binding sorunu için devre dışı
-  },
-  
+
   // Cache optimizasyonu
   onDemandEntries: {
     maxInactiveAge: 60 * 1000,
     pagesBufferLength: 5,
   },
-  
+
   // Production için güvenlik
   async headers() {
     return [
