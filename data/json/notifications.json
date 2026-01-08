@@ -1,0 +1,83 @@
+[
+  {
+    "id": "1961caec-a6b2-11f0-af23-eb6435dcb1e1",
+    "type": "system",
+    "title": "Hoş Geldiniz",
+    "message": "Demo yönetim paneline hoş geldiniz!",
+    "link": "/admin",
+    "is_read": 0,
+    "created_at": "2025-10-11T14:53:50.000Z"
+  },
+  {
+    "id": "1961cca4-a6b2-11f0-af23-eb6435dcb1e1",
+    "type": "new_message",
+    "title": "Yeni Mesaj",
+    "message": "Yeni bir iletişim mesajı aldınız.",
+    "link": "/admin/mesajlar",
+    "is_read": 0,
+    "created_at": "2025-10-11T14:53:50.000Z"
+  },
+  {
+    "id": "92b4a748-a716-11f0-b978-7df75ef09a30",
+    "type": "new_message",
+    "title": "Yeni İletişim Mesajı",
+    "message": "bedirhan demirhan adlı kullanıcıdan yeni bir iletişim mesajı aldınız. Konu: SSL HK.",
+    "link": "/admin/messages",
+    "is_read": 0,
+    "created_at": "2025-10-12T02:53:04.000Z"
+  },
+  {
+    "id": "a62a4aac-a70d-11f0-b978-7df75ef09a30",
+    "type": "new_message",
+    "title": "Yeni İletişim Mesajı",
+    "message": "Meliha Yılmaz adlı kullanıcıdan yeni bir iletişim mesajı aldınız. Konu: Modül",
+    "link": "/admin/messages",
+    "is_read": 0,
+    "created_at": "2025-10-12T01:49:11.000Z"
+  },
+  {
+    "id": "bfbf7af0-a70d-11f0-b978-7df75ef09a30",
+    "type": "new_quote",
+    "title": "Yeni Teklif Talebi",
+    "message": "Test Kullanıcı adlı kullanıcıdan yeni bir teklif talebi aldınız. Hizmet: web-tasarim",
+    "link": "/admin/quote-requests",
+    "is_read": 0,
+    "created_at": "2025-10-12T01:49:54.000Z"
+  },
+  {
+    "id": "c820ae1e-a70b-11f0-b978-7df75ef09a30",
+    "type": "new_message",
+    "title": "Yeni İletişim Mesajı",
+    "message": "bedirhan demirhan adlı kullanıcıdan yeni bir iletişim mesajı aldınız. Konu: Dns Hk.",
+    "link": "/admin/messages",
+    "is_read": 0,
+    "created_at": "2025-10-12T01:35:49.000Z"
+  },
+  {
+    "id": "cedeb5b0-a716-11f0-b978-7df75ef09a30",
+    "type": "new_quote",
+    "title": "Yeni Teklif Talebi",
+    "message": "sıla güler adlı kullanıcıdan yeni bir teklif talebi aldınız. Hizmet: ozel-yazilim",
+    "link": "/admin/quote-requests",
+    "is_read": 0,
+    "created_at": "2025-10-12T02:54:45.000Z"
+  },
+  {
+    "id": "de9005c2-a70c-11f0-b978-7df75ef09a30",
+    "type": "new_message",
+    "title": "Yeni İletişim Mesajı",
+    "message": "bedirhan demirhan adlı kullanıcıdan yeni bir iletişim mesajı aldınız. Konu: Dns Hk.",
+    "link": "/admin/messages",
+    "is_read": 0,
+    "created_at": "2025-10-12T01:43:36.000Z"
+  },
+  {
+    "id": "df682924-a70d-11f0-b978-7df75ef09a30",
+    "type": "new_quote",
+    "title": "Yeni Teklif Talebi",
+    "message": "Mehmet Durmuş adlı kullanıcıdan yeni bir teklif talebi aldınız. Hizmet: web-tasarim",
+    "link": "/admin/quote-requests",
+    "is_read": 0,
+    "created_at": "2025-10-12T01:50:47.000Z"
+  }
+]

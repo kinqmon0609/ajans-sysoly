@@ -1,0 +1,62 @@
+[
+  {
+    "id": "7ba8bd8e-a714-11f0-b978-7df75ef09a30",
+    "name": "Temel Paket",
+    "description": "Küçük işletmeler için ideal başlangıç paketi",
+    "price": "2500.00",
+    "features": [
+      "5 Sayfa Tasarım",
+      "Responsive Tasarım",
+      "SEO Optimizasyonu",
+      "İletişim Formu",
+      "1 Yıl Domain + Hosting"
+    ],
+    "is_active": 1,
+    "display_order": 1,
+    "created_at": "2025-10-12T02:38:06.000Z",
+    "updated_at": "2025-10-12T02:38:06.000Z"
+  },
+  {
+    "id": "7ba8e73c-a714-11f0-b978-7df75ef09a30",
+    "name": "Profesyonel Paket",
+    "description": "Orta ölçekli işletmeler için kapsamlı çözüm",
+    "price": "5000.00",
+    "features": [
+      "10 Sayfa Tasarım",
+      "Responsive Tasarım",
+      "Gelişmiş SEO",
+      "Blog Modülü",
+      "Admin Paneli",
+      "E-posta Entegrasyonu",
+      "1 Yıl Domain + Hosting",
+      "3 Ay Ücretsiz Destek"
+    ],
+    "is_active": 1,
+    "display_order": 2,
+    "created_at": "2025-10-12T02:38:06.000Z",
+    "updated_at": "2025-10-12T02:38:06.000Z"
+  },
+  {
+    "id": "7ba8e890-a714-11f0-b978-7df75ef09a30",
+    "name": "Kurumsal Paket",
+    "description": "Büyük işletmeler için tam özellikli çözüm",
+    "price": "10000.00",
+    "features": [
+      "Sınırsız Sayfa",
+      "Responsive Tasarım",
+      "Premium SEO",
+      "E-Ticaret Modülü",
+      "Blog & Portfolyo",
+      "Gelişmiş Admin Paneli",
+      "Özel Entegrasyonlar",
+      "SSL Sertifikası",
+      "1 Yıl Domain + Hosting",
+      "6 Ay Ücretsiz Destek",
+      "Performans Optimizasyonu"
+    ],
+    "is_active": 1,
+    "display_order": 3,
+    "created_at": "2025-10-12T02:38:06.000Z",
+    "updated_at": "2025-10-12T02:38:06.000Z"
+  }
+]

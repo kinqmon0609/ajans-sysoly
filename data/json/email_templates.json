@@ -1,0 +1,44 @@
+[
+  {
+    "id": "c6710858-a87c-11f0-b978-7df75ef09a30",
+    "name": "welcome",
+    "subject": "Hoş Geldiniz!",
+    "html_content": "<h1>Merhaba {{name}}!</h1><p>Sistemimize hoş geldiniz.</p>",
+    "text_content": "Merhaba {{name}}! Sistemimize hoş geldiniz.",
+    "variables": [
+      "name",
+      "email"
+    ],
+    "is_active": 1,
+    "created_at": "2025-10-13T21:37:10.000Z",
+    "updated_at": "2025-10-13T21:37:10.000Z"
+  },
+  {
+    "id": "c6714b74-a87c-11f0-b978-7df75ef09a30",
+    "name": "password_reset",
+    "subject": "Şifre Sıfırlama Talebi",
+    "html_content": "<h1>Şifre Sıfırlama</h1><p>Şifrenizi sıfırlamak için aşağıdaki linke tıklayın:</p><a href=\"{{reset_link}}\">Şifreyi Sıfırla</a>",
+    "text_content": "Şifrenizi sıfırlamak için bu linke gidin: {{reset_link}}",
+    "variables": [
+      "name",
+      "reset_link"
+    ],
+    "is_active": 1,
+    "created_at": "2025-10-13T21:37:10.000Z",
+    "updated_at": "2025-10-13T21:37:10.000Z"
+  },
+  {
+    "id": "c6714cdc-a87c-11f0-b978-7df75ef09a30",
+    "name": "email_verification",
+    "subject": "E-posta Doğrulama",
+    "html_content": "<h1>E-posta Doğrulama</h1><p>E-postanızı doğrulamak için aşağıdaki linke tıklayın:</p><a href=\"{{verification_link}}\">E-postayı Doğrula</a>",
+    "text_content": "E-postanızı doğrulamak için bu linke gidin: {{verification_link}}",
+    "variables": [
+      "name",
+      "verification_link"
+    ],
+    "is_active": 1,
+    "created_at": "2025-10-13T21:37:10.000Z",
+    "updated_at": "2025-10-13T21:37:10.000Z"
+  }
+]

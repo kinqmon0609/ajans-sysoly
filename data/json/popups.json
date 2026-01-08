@@ -1,0 +1,17 @@
+[
+  {
+    "id": "3ff8d3ce-a84e-11f0-b978-7df75ef09a30",
+    "title": "Özel İndirim Kampanyası!",
+    "description": "Web sitesi projelerinizde %20 indirim fırsatını kaçırmayın. Hemen teklif alın!",
+    "image_url": null,
+    "button_text": "Teklif Al",
+    "button_link": "/teklif-formu",
+    "is_active": 1,
+    "show_on_homepage": 1,
+    "start_date": null,
+    "end_date": null,
+    "display_order": 1,
+    "created_at": "2025-10-13T16:04:08.000Z",
+    "updated_at": "2025-10-13T16:04:08.000Z"
+  }
+]

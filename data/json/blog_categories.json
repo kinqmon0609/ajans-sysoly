@@ -1,0 +1,42 @@
+[
+  {
+    "id": "f76b1158-a85c-11f0-b978-7df75ef09a30",
+    "name": "Web Tasarım",
+    "slug": "web-tasarim",
+    "description": "Web tasarım trendleri, UI/UX, responsive tasarım",
+    "created_at": "2025-10-13T17:49:28.000Z",
+    "updated_at": "2025-10-13T17:49:28.000Z"
+  },
+  {
+    "id": "f76b6324-a85c-11f0-b978-7df75ef09a30",
+    "name": "Dijital Pazarlama",
+    "slug": "dijital-pazarlama",
+    "description": "SEO, sosyal medya, content marketing",
+    "created_at": "2025-10-13T17:49:28.000Z",
+    "updated_at": "2025-10-13T17:49:28.000Z"
+  },
+  {
+    "id": "f76c0d92-a85c-11f0-b978-7df75ef09a30",
+    "name": "E-Ticaret",
+    "slug": "e-ticaret",
+    "description": "Online satış, e-ticaret platformları, ödeme sistemleri",
+    "created_at": "2025-10-13T17:49:28.000Z",
+    "updated_at": "2025-10-13T17:49:28.000Z"
+  },
+  {
+    "id": "f76c6a12-a85c-11f0-b978-7df75ef09a30",
+    "name": "Yazılım",
+    "slug": "yazilim",
+    "description": "Programlama, framework'ler, yazılım geliştirme",
+    "created_at": "2025-10-13T17:49:29.000Z",
+    "updated_at": "2025-10-13T17:49:29.000Z"
+  },
+  {
+    "id": "f76cc9e4-a85c-11f0-b978-7df75ef09a30",
+    "name": "Kurumsal",
+    "slug": "kurumsal",
+    "description": "Kurumsal kimlik, marka, iş süreçleri",
+    "created_at": "2025-10-13T17:49:29.000Z",
+    "updated_at": "2025-10-13T17:49:29.000Z"
+  }
+]

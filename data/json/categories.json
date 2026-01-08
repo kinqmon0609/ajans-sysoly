@@ -1,0 +1,68 @@
+[
+  {
+    "id": "11a3fcda-a6b2-11f0-af23-eb6435dcb1e1",
+    "name": "Web Sitesi",
+    "slug": "web-sitesi",
+    "description": "Kurumsal ve e-ticaret web siteleri",
+    "icon": "🌐",
+    "display_order": 1,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:37.000Z",
+    "updated_at": "2025-10-11T14:53:37.000Z"
+  },
+  {
+    "id": "11a419b8-a6b2-11f0-af23-eb6435dcb1e1",
+    "name": "Mobil Uygulama",
+    "slug": "mobil-uygulama",
+    "description": "iOS ve Android mobil uygulamalar",
+    "icon": "📱",
+    "display_order": 2,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:37.000Z",
+    "updated_at": "2025-10-11T14:53:37.000Z"
+  },
+  {
+    "id": "11a41b20-a6b2-11f0-af23-eb6435dcb1e1",
+    "name": "Özel Yazılım",
+    "slug": "ozel-yazilim",
+    "description": "İşletmelere özel yazılım çözümleri",
+    "icon": "⚙️",
+    "display_order": 3,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:37.000Z",
+    "updated_at": "2025-10-11T14:53:37.000Z"
+  },
+  {
+    "id": "11a425f2-a6b2-11f0-af23-eb6435dcb1e1",
+    "name": "E-ticaret",
+    "slug": "e-ticaret",
+    "description": "Online satış platformları",
+    "icon": "🛒",
+    "display_order": 4,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:37.000Z",
+    "updated_at": "2025-10-11T14:53:37.000Z"
+  },
+  {
+    "id": "11a42854-a6b2-11f0-af23-eb6435dcb1e1",
+    "name": "Dashboard",
+    "slug": "dashboard",
+    "description": "Yönetim panelleri ve analitik araçlar",
+    "icon": "📊",
+    "display_order": 5,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:37.000Z",
+    "updated_at": "2025-10-11T14:53:37.000Z"
+  },
+  {
+    "id": "792daf1e-aa21-11f0-9126-6736d89a7a93",
+    "name": "yedek",
+    "slug": "yedek",
+    "description": null,
+    "icon": "⚙️",
+    "display_order": 0,
+    "is_active": 1,
+    "created_at": "2025-10-15T23:48:39.000Z",
+    "updated_at": "2025-10-15T23:48:39.000Z"
+  }
+]

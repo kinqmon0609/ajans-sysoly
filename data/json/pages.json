@@ -1,0 +1,1494 @@
+[
+  {
+    "id": "1c6f7298-a6b2-11f0-af23-eb6435dcb1e1",
+    "title": "Hizmetlerimiz",
+    "slug": "hizmetlerimiz",
+    "description": "Sunduğumuz profesyonel hizmetler",
+    "content": {
+      "sections": [
+        {
+          "id": "hero-hizmetler",
+          "type": "hero",
+          "style": {
+            "textColor": "#ffffff",
+            "gradientTo": "#8b5cf6",
+            "useGradient": true,
+            "gradientFrom": "#3b82f6",
+            "gradientDirection": "to-br"
+          },
+          "title": "Hizmetlerimiz",
+          "subtitle": "Dijital Dünyada Başarınız İçin",
+          "description": "Modern teknolojiler ve yaratıcı çözümlerle işletmenizi dijital dünyada zirveye taşıyoruz. Web tasarımdan mobil uygulamaya, e-ticaretten dijital pazarlamaya kadar tüm ihtiyaçlarınız için buradayız."
+        },
+        {
+          "id": "service-cards-main",
+          "type": "service-cards",
+          "items": [
+            {
+              "url": "/web-tasarim",
+              "icon": "Code",
+              "title": "Web Tasarım",
+              "description": "Modern, responsive ve kullanıcı dostu web siteleri. SEO uyumlu, hızlı yüklenen ve profesyonel tasarımlar."
+            },
+            {
+              "url": "/mobil-uygulama",
+              "icon": "Smartphone",
+              "title": "Mobil Uygulama",
+              "description": "iOS ve Android için native mobil uygulamalar. Yüksek performanslı ve kullanıcı deneyimi odaklı çözümler."
+            },
+            {
+              "url": "/e-ticaret",
+              "icon": "ShoppingCart",
+              "title": "E-Ticaret",
+              "description": "Güvenli ödeme sistemleri, stok yönetimi ve müşteri yönetimi ile eksiksiz online mağaza çözümleri."
+            },
+            {
+              "url": "/ozel-yazilim",
+              "icon": "Code",
+              "title": "Özel Yazılım",
+              "description": "İşletmenize özel, ölçeklenebilir yazılım çözümleri. İhtiyaçlarınıza göre tasarlanmış sistemler."
+            },
+            {
+              "url": "/dijital-pazarlama",
+              "icon": "TrendingUp",
+              "title": "Dijital Pazarlama",
+              "description": "SEO, Google Ads ve sosyal medya yönetimi ile markanızı dijital dünyada büyütün."
+            },
+            {
+              "url": "/grafik-tasarim",
+              "icon": "Palette",
+              "title": "Grafik Tasarım",
+              "description": "Logo tasarımı, kurumsal kimlik ve görsel içerikler. Markanızı öne çıkaran yaratıcı tasarımlar."
+            }
+          ],
+          "style": {
+            "padding": "large"
+          },
+          "title": "Sunduğumuz Hizmetler"
+        },
+        {
+          "id": "stats-hizmetler",
+          "type": "stats",
+          "items": [
+            {
+              "icon": "star",
+              "label": "Tamamlanan Proje",
+              "value": "500+"
+            },
+            {
+              "icon": "heart",
+              "label": "Mutlu Müşteri",
+              "value": "250+"
+            },
+            {
+              "icon": "activity",
+              "label": "Yıllık Deneyim",
+              "value": "10+"
+            },
+            {
+              "icon": "award",
+              "label": "Müşteri Memnuniyeti",
+              "value": "%98"
+            }
+          ],
+          "style": {
+            "textColor": "#ffffff",
+            "gradientTo": "#334155",
+            "useGradient": true,
+            "gradientFrom": "#1e293b",
+            "gradientDirection": "to-r"
+          },
+          "title": "Rakamlarla Biz"
+        },
+        {
+          "id": "content-neden",
+          "type": "content",
+          "style": {
+            "gradientTo": "#e0f2fe",
+            "useGradient": true,
+            "gradientFrom": "#f0f9ff",
+            "gradientDirection": "to-br"
+          },
+          "title": "Neden Bizi Seçmelisiniz?",
+          "content": "10 yılı aşkın deneyimimiz, uzman ekibimiz ve müşteri odaklı yaklaşımımızla projelerinizi en iyi şekilde hayata geçiriyoruz. Kaliteli hizmet, zamanında teslimat ve sürekli destek garantisi sunuyoruz."
+        },
+        {
+          "id": "cta-hizmetler",
+          "type": "cta",
+          "style": {
+            "textColor": "#ffffff",
+            "gradientTo": "#10b981",
+            "useGradient": true,
+            "gradientFrom": "#059669",
+            "gradientDirection": "to-r"
+          },
+          "title": "Projenizi Konuşalım",
+          "buttonUrl": "/teklif-formu",
+          "buttonText": "Teklif Alın",
+          "description": "Ücretsiz danışmanlık için bizimle iletişime geçin. Size özel çözümler üretelim."
+        },
+        {
+          "id": "features-avantajlar",
+          "type": "features",
+          "items": [
+            {
+              "icon": "shield",
+              "title": "Güvenilir Hizmet",
+              "description": "ISO sertifikalı, güvenli ve kaliteli hizmet anlayışı"
+            },
+            {
+              "icon": "clock",
+              "title": "Hızlı Teslimat",
+              "description": "Belirlenen sürede eksiksiz proje teslimi"
+            },
+            {
+              "icon": "users",
+              "title": "Uzman Ekip",
+              "description": "Alanında deneyimli ve sertifikalı profesyoneller"
+            },
+            {
+              "icon": "heart",
+              "title": "7/24 Destek",
+              "description": "Sürekli teknik destek ve bakım hizmeti"
+            }
+          ],
+          "title": "Avantajlarımız"
+        }
+      ]
+    },
+    "meta_title": "Hizmetlerimiz - Demo Vitrin",
+    "meta_description": "Profesyonel web geliştirme, mobil uygulama ve e-ticaret hizmetleri",
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 2,
+    "created_at": "2025-10-11T14:53:55.000Z",
+    "updated_at": "2025-10-12T03:00:48.000Z"
+  },
+  {
+    "id": "1c6f77c0-a6b2-11f0-af23-eb6435dcb1e1",
+    "title": "E-Ticaret Çözümleri",
+    "slug": "e-ticaret",
+    "description": "Güçlü e-ticaret altyapıları",
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "E-Ticaret Çözümleri",
+          "subtitle": "Dijital Satış Platformlarınız",
+          "description": "Profesyonel e-ticaret altyapısı ile online satışlarınızı artırın. Modern, hızlı ve güvenli e-ticaret platformları."
+        },
+        {
+          "id": "content-1",
+          "type": "content",
+          "style": {
+            "padding": "normal",
+            "alignment": "center"
+          },
+          "title": "Neden E-Ticaret?",
+          "content": "E-ticaret, işletmenizin 7/24 açık olmasını sağlar. Müşterileriniz istedikleri zaman, istedikleri yerden alışveriş yapabilir. Coğrafi sınırlamaları ortadan kaldırarak daha geniş bir müşteri kitlesine ulaşabilirsiniz."
+        },
+        {
+          "id": "features-1",
+          "type": "features",
+          "items": [
+            {
+              "icon": "ShoppingCart",
+              "title": "Gelişmiş Ürün Yönetimi",
+              "description": "Sınırsız ürün, kategori ve varyasyon yönetimi. Toplu ürün yükleme ve güncelleme"
+            },
+            {
+              "icon": "CreditCard",
+              "title": "Güvenli Ödeme Sistemi",
+              "description": "Kredi kartı, havale, kapıda ödeme gibi tüm ödeme yöntemleri. SSL sertifikası ile güvenli alışveriş"
+            },
+            {
+              "icon": "Truck",
+              "title": "Kargo Entegrasyonu",
+              "description": "MNG, Yurtiçi, Aras, PTT gibi tüm kargo firmalarıyla otomatik entegrasyon"
+            },
+            {
+              "icon": "Users",
+              "title": "Müşteri Yönetimi",
+              "description": "Detaylı müşteri profilleri, sipariş geçmişi, favori listesi ve hediye çeki sistemi"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "E-Ticaret Özelliklerimiz",
+          "description": "Başarılı bir online mağaza için ihtiyacınız olan her şey"
+        },
+        {
+          "id": "columns-1",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Mobil Uyumlu Tasarım",
+          "columns": [
+            {
+              "id": "col-1",
+              "title": "Responsive Design",
+              "content": "Müşterilerinizin %70'i mobil cihazlardan alışveriş yapıyor. Responsive tasarım ile her cihazda kusursuz bir deneyim sunun.",
+              "children": [],
+              "description": "Mobil, tablet ve masaüstü için optimize edilmiş arayüz"
+            },
+            {
+              "id": "col-2",
+              "title": "Hızlı Yükleme",
+              "content": "Sayfa yükleme hızı, dönüşüm oranını doğrudan etkiler. Optimizasyon teknikleri ile saniyeler içinde yüklenen sayfalar.",
+              "children": [],
+              "description": "Optimize edilmiş kod ve görsel yapısı"
+            }
+          ],
+          "description": "Tüm cihazlarda mükemmel görünüm"
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "label": "Aktif Mağaza",
+              "value": "150+"
+            },
+            {
+              "label": "Günlük Sipariş",
+              "value": "5000+"
+            },
+            {
+              "label": "Müşteri Memnuniyeti",
+              "value": "%98"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "E-Ticaret İstatistiklerimiz",
+          "description": "Gerçek verilerle kanıtlanmış başarı"
+        },
+        {
+          "id": "content-2",
+          "type": "content",
+          "style": {
+            "padding": "normal",
+            "alignment": "left"
+          },
+          "title": "SEO Dostu E-Ticaret",
+          "content": "Arama motorlarında üst sıralarda yer alın. SEO optimizasyonu ile organik trafiğinizi artırın. Ürün sayfaları, kategori sayfaları ve blog entegrasyonu ile Google'da görünürlüğünüzü maksimuma çıkarın."
+        },
+        {
+          "id": "columns-2",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "E-Ticaret Paketlerimiz",
+          "columns": [
+            {
+              "id": "col-3",
+              "title": "🎯 Başlangıç Paketi",
+              "content": "• 100 ürün kapasitesi\n• Temel ödeme entegrasyonları\n• Mobil uyumlu tasarım\n• 1 yıl destek",
+              "children": [],
+              "description": "Yeni başlayanlar için"
+            },
+            {
+              "id": "col-4",
+              "title": "🚀 Profesyonel Paket",
+              "content": "• Sınırsız ürün\n• Tüm ödeme ve kargo entegrasyonları\n• Özel tasarım\n• SEO optimizasyonu\n• 2 yıl destek",
+              "children": [],
+              "description": "Büyüyen işletmeler için"
+            },
+            {
+              "id": "col-5",
+              "title": "💎 Kurumsal Paket",
+              "content": "• Enterprise altyapı\n• B2B/B2C özellikler\n• API entegrasyonları\n• Özel geliştirmeler\n• Sınırsız destek",
+              "children": [],
+              "description": "Büyük ölçekli projeler için"
+            }
+          ],
+          "description": "İhtiyacınıza uygun çözüm"
+        },
+        {
+          "id": "faq-1",
+          "type": "faq",
+          "items": [
+            {
+              "answer": "Başlangıç paketi için 2-3 hafta, profesyonel paket için 4-6 hafta sürmektedir. Kurumsal projeler için süre projenin kapsamına göre belirlenir.",
+              "question": "E-ticaret sitesi kurmak ne kadar sürer?"
+            },
+            {
+              "answer": "İyzico, PayTR, PayU gibi tüm sanal pos sağlayıcıları, havale/EFT, kapıda ödeme ve kripto para ödeme seçeneklerini destekliyoruz.",
+              "question": "Hangi ödeme sistemlerini destekliyorsunuz?"
+            },
+            {
+              "answer": "Evet, istediğiniz takdirde profesyonel ekibimiz ürünlerinizi düzenli bir şekilde sisteme yükler ve kategorize eder.",
+              "question": "Ürün yüklemesini siz yapıyor musunuz?"
+            },
+            {
+              "answer": "Evet, gelişmiş stok yönetimi sistemi ile ürün stok durumlarını takip edebilir, kritik stok seviyelerinde otomatik bildirimler alabilirsiniz.",
+              "question": "Stok takibi yapabiliyor muyum?"
+            },
+            {
+              "answer": "Facebook, Instagram Shop entegrasyonu ile ürünlerinizi sosyal medyada da satabilirsiniz. Ayrıca sosyal medya paylaşım butonları ve pixel entegrasyonları mevcuttur.",
+              "question": "Sosyal medya entegrasyonu var mı?"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Sıkça Sorulan Sorular"
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "E-Ticaret Yolculuğunuza Başlayın!",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Hemen Başla",
+          "description": "Ücretsiz danışmanlık ve demo için hemen iletişime geçin"
+        }
+      ]
+    },
+    "meta_title": "E-Ticaret Çözümleri - Demo Vitrin",
+    "meta_description": "Komisyonsuz e-ticaret altyapısı ile online satışa başlayın",
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 3,
+    "created_at": "2025-10-11T14:53:55.000Z",
+    "updated_at": "2025-10-12T00:11:53.000Z"
+  },
+  {
+    "id": "2dbb3d1c-a6d9-11f0-af23-eb6435dcb1e1",
+    "title": "Hakkımızda",
+    "slug": "hakkimizda",
+    "description": "Biz kimiz, ne yapıyoruz?",
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "title": "Hakkımızda",
+          "subtitle": "Dijital Dünyanın Mimarları",
+          "description": "Modern web teknolojileri ve yenilikçi çözümlerle işletmenizin dijital dönüşümünü gerçekleştiriyoruz."
+        },
+        {
+          "id": "content-1",
+          "type": "content",
+          "title": "Biz Kimiz?",
+          "content": "Demo Vitrin olarak, işletmelerin dijital dünyada güçlü bir varlık oluşturmasına yardımcı oluyoruz. Uzman ekibimiz ve yılların deneyimiyle, her ölçekte projeye özel çözümler sunuyoruz."
+        },
+        {
+          "id": "content-2",
+          "type": "content",
+          "style": {
+            "useGradient": false
+          },
+          "title": "Vizyonumuz",
+          "content": "Türkiye'nin önde gelen dijital ajanslarından biri olmak ve müşterilerimize dünya standartlarında hizmet sunmak vizyonumuzun merkezinde yer alıyor."
+        },
+        {
+          "id": "features-1",
+          "type": "features",
+          "items": [
+            {
+              "icon": "search",
+              "title": "Müşteri Odaklılık",
+              "description": "Her projeyi müşteri memnuniyeti odağında yönetiyoruz"
+            },
+            {
+              "icon": "award",
+              "title": "Kalite",
+              "description": "En yüksek kalite standartlarında çözümler sunuyoruz"
+            },
+            {
+              "icon": "users",
+              "title": "Ekip Çalışması",
+              "description": "Güçlü ekibimizle her projeye değer katıyoruz"
+            },
+            {
+              "icon": "trending-up",
+              "title": "Sürekli Gelişim",
+              "description": "Teknolojik gelişmeleri takip ediyor, kendimizi sürekli geliştiriyoruz"
+            }
+          ],
+          "title": "Değerlerimiz"
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "icon": "users",
+              "label": "Mutlu Müşteri",
+              "value": "500+"
+            },
+            {
+              "icon": "package",
+              "label": "Tamamlanan Proje",
+              "value": "1000+"
+            },
+            {
+              "icon": "award",
+              "label": "Yıllık Deneyim",
+              "value": "10+"
+            }
+          ],
+          "title": "Rakamlarla Biz",
+          "description": "Yıllardır süregelen başarımızın kanıtı"
+        }
+      ]
+    },
+    "meta_title": "Hakkımızda - Demo Vitrin",
+    "meta_description": "Demo Vitrin hakkında bilgi edinin. Değerlerimiz, vizyonumuz ve ekibimiz.",
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 1,
+    "created_at": "2025-10-11T19:33:35.000Z",
+    "updated_at": "2025-10-14T16:15:55.000Z"
+  },
+  {
+    "id": "4a0b880a-a6d9-11f0-af23-eb6435dcb1e1",
+    "title": "Sıkça Sorulan Sorular",
+    "slug": "sss",
+    "description": "En çok merak edilen sorular ve cevapları",
+    "content": [
+      {
+        "id": "hero-1",
+        "type": "hero",
+        "title": "Sıkça Sorulan Sorular",
+        "subtitle": "Merak Ettikleriniz",
+        "description": "En çok sorulan sorulara hızlı cevaplar bulabilirsiniz."
+      },
+      {
+        "id": "faq-hizmetler",
+        "type": "faq",
+        "items": [
+          {
+            "answer": "Web tasarım, mobil uygulama geliştirme, e-ticaret çözümleri, SEO optimizasyonu ve dijital pazarlama hizmetleri sunuyoruz. Her projeyi müşterilerimizin ihtiyaçlarına özel olarak tasarlıyoruz.",
+            "question": "Ne tür hizmetler sunuyorsunuz?"
+          },
+          {
+            "answer": "Projenin kapsamına göre değişmekle birlikte, ortalama bir web sitesi projesi 4-8 hafta sürmektedir. Daha karmaşık e-ticaret projeleri 8-12 hafta arasında tamamlanır. Detaylı bir zaman çizelgesi için bizimle iletişime geçebilirsiniz.",
+            "question": "Proje süresi ne kadar?"
+          },
+          {
+            "answer": "Next.js, React, Node.js, TypeScript gibi modern web teknolojilerini kullanıyoruz. Mobil uygulamalar için React Native, backend için Node.js ve Python tercih ediyoruz. Her proje için en uygun teknoloji yığınını seçiyoruz.",
+            "question": "Hangi teknolojileri kullanıyorsunuz?"
+          },
+          {
+            "answer": "Evet, tüm projelerimiz mobil öncelikli tasarım prensibiyle geliştirilir. Oluşturduğumuz web siteleri tüm cihazlarda (telefon, tablet, masaüstü) mükemmel görünür ve çalışır.",
+            "question": "Responsive (mobil uyumlu) tasarım yapıyor musunuz?"
+          }
+        ],
+        "title": "Hizmetlerimiz Hakkında",
+        "description": "Sunduğumuz hizmetler ve çalışma süreçlerimiz hakkında"
+      },
+      {
+        "id": "faq-fiyatlandirma",
+        "type": "faq",
+        "items": [
+          {
+            "answer": "Her proje özeldir ve ihtiyaçlarınıza göre özel fiyatlandırma yapılır. Proje kapsamı, süre, özellikler ve teknoloji seçimine göre detaylı teklif hazırlıyoruz. Ücretsiz danışmanlık için bizimle iletişime geçebilirsiniz.",
+            "question": "Fiyatlar nasıl belirleniyor?"
+          },
+          {
+            "answer": "Evet, proje bütçesine göre esnek ödeme planları sunuyoruz. Genellikle %40 peşin, %30 geliştirme aşamasında, %30 teslimat sonrasında şeklinde üç taksit planı uyguluyoruz. Özel durumlar için farklı planlar da oluşturabiliriz.",
+            "question": "Ödeme planları var mı?"
+          },
+          {
+            "answer": "Banka havalesi/EFT, kredi kartı ve PayPal ile ödeme kabul ediyoruz. Kurumsal müşteriler için fatura ve sözleşme imzalıyoruz.",
+            "question": "Hangi ödeme yöntemlerini kabul ediyorsunuz?"
+          },
+          {
+            "answer": "Proje başlamadan önce imzalanan sözleşmeye göre %10 proje iptal ücreti alınır. Proje başladıktan sonra tamamlanan aşamaların ödemesi iade edilemez. Ancak müşteri memnuniyeti bizim için önceliklidir ve her türlü sorunda çözüm üretmeye çalışırız.",
+            "question": "İade politikanız nedir?"
+          }
+        ],
+        "title": "Fiyatlandırma ve Ödeme",
+        "description": "Fiyat politikamız ve ödeme seçenekleri hakkında bilgiler"
+      },
+      {
+        "id": "faq-destek",
+        "type": "faq",
+        "items": [
+          {
+            "answer": "Evet, tüm projelerimizde 3 aylık ücretsiz garanti süresi dahilinde destek ve bakım hizmeti sunuyoruz. Bu süre içinde karşılaşılan teknik sorunları ücretsiz olarak çözüyoruz.",
+            "question": "Proje tesliminden sonra destek veriyor musunuz?"
+          },
+          {
+            "answer": "7/24 destek hattımız, e-posta ve WhatsApp yoluyla bize ulaşabilirsiniz. Kritik sorunlarda 2 saat içinde yanıt vermeyi garanti ediyoruz. Premium destek paketimizde 1 saat içinde müdahale garantisi sunuyoruz.",
+            "question": "Acil durumlarda nasıl ulaşabilirim?"
+          },
+          {
+            "answer": "Evet, aylık bakım paketlerimiz bulunmaktadır. Bu paketler düzenli güncelleme, güvenlik kontrolü, yedekleme, performans optimizasyonu ve içerik güncellemeleri içerir. Detaylı bilgi için bizimle iletişime geçebilirsiniz.",
+            "question": "Sürekli bakım ve güncelleme hizmeti sunuyor musunuz?"
+          },
+          {
+            "answer": "Evet, mevcut web sitelerinin bakım, güncelleme ve geliştirme işlerini üstlenebiliriz. Önce sitenizin teknik altyapısını inceleyip size detaylı bir rapor ve teklif sunuyoruz.",
+            "question": "Başka bir firmadan aldığım siteyi yönetebilir misiniz?"
+          }
+        ],
+        "title": "Destek ve Bakım",
+        "description": "Proje sonrası destek hizmetlerimiz hakkında"
+      },
+      {
+        "id": "faq-genel",
+        "type": "faq",
+        "items": [
+          {
+            "answer": "Evet, güvenilir hosting sağlayıcılarıyla çalışıyoruz ve size en uygun hosting paketini önerebiliriz. Domain kaydı ve yönetimi konusunda da destek sağlıyoruz. İsterseniz kendi hosting'inizi de kullanabilirsiniz.",
+            "question": "Hosting ve domain hizmeti veriyor musunuz?"
+          },
+          {
+            "answer": "Evet, tüm web sitelerimiz SEO dostu olarak kodlanır. Ayrıca detaylı SEO analizi, anahtar kelime araştırması ve içerik optimizasyonu hizmetleri sunuyoruz. Aylık SEO takip ve raporlama paketlerimiz de mevcuttur.",
+            "question": "SEO (Arama Motoru Optimizasyonu) yapıyor musunuz?"
+          },
+          {
+            "answer": "Evet, web sitenize Facebook, Instagram, Twitter, LinkedIn gibi sosyal medya platformlarını entegre edebiliyoruz. Ayrıca sosyal medya yönetimi ve içerik üretimi hizmetleri de sunuyoruz.",
+            "question": "Sosyal medya entegrasyonu yapıyor musunuz?"
+          },
+          {
+            "answer": "Elbette! Web sitemizde tamamladığımız projelerin portföyünü inceleyebilirsiniz. Ayrıca istediğiniz sektörden referanslarımızı ve müşteri yorumlarını size iletebiliriz.",
+            "question": "Referanslarınızı görebilir miyim?"
+          }
+        ],
+        "title": "Genel Sorular",
+        "description": "Diğer merak edilen konular"
+      }
+    ],
+    "meta_title": "SSS - Demo Vitrin",
+    "meta_description": "Sıkça sorulan sorular ve cevapları. Hizmetlerimiz, fiyatlandırma ve destek hakkında bilgi edinin.",
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 4,
+    "created_at": "2025-10-11T19:34:22.000Z",
+    "updated_at": "2025-10-11T19:43:29.000Z"
+  },
+  {
+    "id": "53d3f546-8447-402e-a0bf-d1b2b116c6ba",
+    "title": "Özel Yazılım",
+    "slug": "ozel-yazilim",
+    "description": null,
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Özel Yazılım Geliştirme",
+          "subtitle": "Size Özel Çözümler",
+          "description": "İşletmenizin ihtiyaçlarına özel tasarlanmış yazılım çözümleriyle rakiplerinizin önüne geçin."
+        },
+        {
+          "id": "features-box-1",
+          "type": "features-box",
+          "items": [
+            {
+              "icon": "Zap",
+              "title": "Yaratıcılık ve İnovasyon",
+              "description": "İnovatif ve özgün çözümlerle yaratıcı potansiyelini keşfedin."
+            },
+            {
+              "icon": "Shield",
+              "title": "Verimlilikte Yenilik",
+              "description": "Sektörünüzde öne çıkmak için tasarlanmış yenilikçi çözümler."
+            },
+            {
+              "icon": "Star",
+              "title": "Analitik Güç",
+              "description": "Detaylı analitik yeteneklere sahip özel yazılım çözümleriyle verilerinizi etkili bir şekilde değerlendirin."
+            },
+            {
+              "icon": "Target",
+              "title": "Mükemmel Uyum",
+              "description": "İşletmenizin özel ihtiyaçlarına mükemmel uyum sağlayan özel yazılım projeleri geliştiriyoruz."
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Hızlı ve Ölçeklenebilir Çözümler",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Destek Ekibimize Ulaşın",
+          "description": "İhtiyaçlarınıza özel tasarlanmış yazılımlarla iş süreçlerinizi optimize edin."
+        },
+        {
+          "id": "content-1",
+          "type": "content",
+          "style": {
+            "padding": "normal",
+            "alignment": "center"
+          },
+          "title": "Neden Özel Yazılım?",
+          "content": "Hazır yazılımlar her işletme için uygun olmayabilir. Özel yazılım çözümleri, işletmenizin benzersiz ihtiyaçlarına tam olarak uyacak şekilde tasarlanır. Bu sayede iş süreçlerinizi optimize eder, verimliliği artırır ve rekabet avantajı elde edersiniz."
+        },
+        {
+          "id": "features-1",
+          "type": "features",
+          "items": [
+            {
+              "icon": "Code",
+              "title": "Web Uygulamaları",
+              "description": "Modern web teknolojileri ile geliştirilmiş, hızlı ve güvenli web uygulamaları"
+            },
+            {
+              "icon": "Smartphone",
+              "title": "Mobil Uygulamalar",
+              "description": "iOS ve Android platformlarında native veya cross-platform mobil uygulamalar"
+            },
+            {
+              "icon": "Database",
+              "title": "ERP Sistemleri",
+              "description": "İş süreçlerinizi entegre eden, raporlama ve analiz özellikleri içeren ERP çözümleri"
+            },
+            {
+              "icon": "Cloud",
+              "title": "Cloud Çözümler",
+              "description": "Bulut tabanlı, ölçeklenebilir ve her yerden erişilebilir yazılım altyapıları"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Özel Yazılım Hizmetlerimiz"
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "label": "Tamamlanan Proje",
+              "value": "200+"
+            },
+            {
+              "label": "Mutlu Müşteri",
+              "value": "150+"
+            },
+            {
+              "label": "Uzman Ekip",
+              "value": "25+"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Özel Yazılım Projelerimiz",
+          "description": "Sayılarla başarı hikayemiz"
+        },
+        {
+          "id": "content-2",
+          "type": "content",
+          "style": {
+            "padding": "normal",
+            "alignment": "left"
+          },
+          "title": "Geliştirme Sürecimiz",
+          "content": "Özel yazılım geliştirme sürecimiz, detaylı analiz ile başlar. İhtiyaç analizi, sistem tasarımı, kodlama, test ve devreye alma aşamalarını titizlikle yürütürüz. Projenin her aşamasında sizinle iletişim halinde olur, geri bildirimlerinizi alır ve uygulamanızı istediğiniz gibi şekillendiririz."
+        },
+        {
+          "id": "columns-1",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Teknoloji Yığınımız",
+          "columns": [
+            {
+              "id": "col-1",
+              "title": "Frontend",
+              "content": "• React, Next.js, Vue.js\n• TypeScript, JavaScript\n• Tailwind CSS, Material-UI\n• Responsive & Modern tasarım"
+            },
+            {
+              "id": "col-2",
+              "title": "Backend",
+              "content": "• Node.js, Python, .NET\n• RESTful API, GraphQL\n• MySQL, PostgreSQL, MongoDB\n• Microservices mimari"
+            }
+          ]
+        },
+        {
+          "id": "faq-1",
+          "type": "faq",
+          "items": [
+            {
+              "answer": "Proje kapsamına göre değişiklik gösterir. Basit bir web uygulaması 1-2 ay, karmaşık bir ERP sistemi 6-12 ay sürebilir. İlk görüşmede size detaylı bir zaman çizelgesi sunuyoruz.",
+              "question": "Özel yazılım geliştirme ne kadar sürer?"
+            },
+            {
+              "answer": "Özel yazılım, işletmenizin benzersiz ihtiyaçlarına tam olarak uyacak şekilde tasarlanır. Gereksiz özelliklerden arındırılmış, işinize özel bir çözüm sunar ve rekabet avantajı sağlar.",
+              "question": "Hazır yazılım yerine özel yazılım neden tercih edilmeli?"
+            },
+            {
+              "answer": "Evet, tüm projelerimizde standart olarak 1 yıl garanti ve teknik destek veriyoruz. İsteğe bağlı bakım ve geliştirme paketlerimiz de mevcuttur.",
+              "question": "Proje teslim sonrası destek veriyor musunuz?"
+            },
+            {
+              "answer": "E-ticaret, finans, sağlık, eğitim, lojistik, üretim ve daha birçok sektörde projeler geliştirdik. Her sektörün kendine özgü ihtiyaçlarını anlayıp en uygun çözümü sunuyoruz.",
+              "question": "Hangi sektörlere hizmet veriyorsunuz?"
+            },
+            {
+              "answer": "Evet, mevcut ERP, CRM, muhasebe yazılımları gibi sistemlerinizle entegrasyon yapabiliyoruz. API geliştirme ve veri migrasyonu konusunda deneyimliyiz.",
+              "question": "Mevcut sistemlerimle entegrasyon yapabiliyor musunuz?"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Sıkça Sorulan Sorular"
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Projenize Hemen Başlayalım!",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Ücretsiz Danışmanlık Al",
+          "description": "Uzman ekibimizle tanışın ve işinize özel çözümü birlikte oluşturalım"
+        }
+      ]
+    },
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 2,
+    "created_at": "2025-10-12T00:07:11.000Z",
+    "updated_at": "2025-10-12T00:11:53.000Z"
+  },
+  {
+    "id": "5456f2f9-22f5-4769-baea-6515dab412c2",
+    "title": "Dijital Pazarlama",
+    "slug": "dijital-pazarlama",
+    "description": null,
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Dijital Pazarlama Hizmetleri",
+          "subtitle": "Markanızı Dijitalde Büyütün",
+          "description": "SEO, SEM, sosyal medya reklamları ve içerik pazarlama ile online görünürlüğünüzü artırın."
+        },
+        {
+          "id": "features-box-1",
+          "type": "features-box",
+          "items": [
+            {
+              "icon": "Zap",
+              "title": "SEO Optimizasyonu",
+              "description": "Google'da üst sıralarda yer alın ve organik trafiğinizi artırın."
+            },
+            {
+              "icon": "Shield",
+              "title": "Google Ads",
+              "description": "Doğru hedefleme ile reklam bütçenizi en verimli şekilde kullanın."
+            },
+            {
+              "icon": "Star",
+              "title": "Sosyal Medya Reklamları",
+              "description": "Facebook, Instagram ve LinkedIn'de etkili kampanyalar yürütün."
+            },
+            {
+              "icon": "Target",
+              "title": "İçerik Pazarlama",
+              "description": "Değerli içeriklerle marka otoritenizi oluşturun."
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Dijital Dünyada Fark Yaratın",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Ücretsiz Analiz Al",
+          "description": "Veriye dayalı stratejiler ile hedef kitlenize ulaşın ve satışlarınızı katla."
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "label": "Ortalama Trafik Artışı",
+              "value": "250%"
+            },
+            {
+              "label": "ROI İyileştirme",
+              "value": "180%"
+            },
+            {
+              "label": "Aktif Kampanya",
+              "value": "50+"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Dijital Pazarlama Başarılarımız",
+          "description": "Müşterilerimizin sonuçları"
+        },
+        {
+          "id": "columns-1",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Hizmetlerimiz",
+          "columns": [
+            {
+              "id": "col-1",
+              "title": "SEO & SEM",
+              "content": "• Anahtar kelime analizi\n• On-page optimizasyon\n• Link building\n• Google Ads yönetimi"
+            },
+            {
+              "id": "col-2",
+              "title": "Sosyal Medya",
+              "content": "• Facebook & Instagram Ads\n• LinkedIn kampanyaları\n• Influencer iş birlikleri\n• Topluluk yönetimi"
+            }
+          ]
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Dijital Pazarlama Yolculuğunuza Başlayın!",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Hemen Başla",
+          "description": "Ücretsiz dijital pazarlama analizi için hemen iletişime geçin"
+        }
+      ]
+    },
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 3,
+    "created_at": "2025-10-12T00:17:58.000Z",
+    "updated_at": "2025-10-12T00:17:58.000Z"
+  },
+  {
+    "id": "5cd70c92-d306-4205-8bae-6a7691acf2f6",
+    "title": "Web Tasarım",
+    "slug": "web-tasarim",
+    "description": null,
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Web Tasarım Hizmetleri",
+          "subtitle": "Modern ve Etkileyici Web Siteleri",
+          "description": "Responsive, hızlı ve SEO uyumlu web tasarımları ile dijital varlığınızı güçlendirin."
+        },
+        {
+          "id": "features-box-1",
+          "type": "features-box",
+          "items": [
+            {
+              "icon": "Zap",
+              "title": "Responsive Tasarım",
+              "description": "Her cihazda mükemmel görünüm sağlayan tasarımlar."
+            },
+            {
+              "icon": "Shield",
+              "title": "Modern Teknolojiler",
+              "description": "React, Next.js, Tailwind CSS ile güncel teknolojiler."
+            },
+            {
+              "icon": "Star",
+              "title": "Hızlı Yükleme",
+              "description": "Optimize edilmiş kod ve görseller ile hızlı siteler."
+            },
+            {
+              "icon": "Target",
+              "title": "SEO Dostu",
+              "description": "Arama motorlarında üst sıralarda yer alın."
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Etkileyici Web Deneyimleri",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Portföy İncele",
+          "description": "Markanızı en iyi şekilde temsil eden, kullanıcı deneyimi odaklı web siteleri tasarlıyoruz."
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "label": "Tamamlanan Proje",
+              "value": "300+"
+            },
+            {
+              "label": "Ortalama Hız Skoru",
+              "value": "95/100"
+            },
+            {
+              "label": "Müşteri Memnuniyeti",
+              "value": "%99"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Web Tasarım Başarılarımız"
+        },
+        {
+          "id": "columns-1",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Tasarım Sürecimiz",
+          "columns": [
+            {
+              "id": "col-1",
+              "title": "1. Keşif",
+              "content": "İhtiyaç analizi ve hedef kitle araştırması"
+            },
+            {
+              "id": "col-2",
+              "title": "2. Tasarım",
+              "content": "Wireframe, mockup ve prototip hazırlama"
+            },
+            {
+              "id": "col-3",
+              "title": "3. Geliştirme",
+              "content": "Kodlama, test ve optimizasyon"
+            },
+            {
+              "id": "col-4",
+              "title": "4. Yayın",
+              "content": "Deployment ve bakım desteği"
+            }
+          ]
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Hayal Ettiğiniz Web Sitesini Oluşturalım!",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Hemen Başla",
+          "description": "Ücretsiz tasarım danışmanlığı için iletişime geçin"
+        }
+      ]
+    },
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 5,
+    "created_at": "2025-10-12T00:17:58.000Z",
+    "updated_at": "2025-10-12T00:17:58.000Z"
+  },
+  {
+    "id": "603431d6-a6d9-11f0-af23-eb6435dcb1e1",
+    "title": "İletişim",
+    "slug": "iletisim",
+    "description": "Bizimle iletişime geçin",
+    "content": [
+      {
+        "id": "hero-1",
+        "type": "hero",
+        "title": "İletişim",
+        "subtitle": "Bizimle İletişime Geçin",
+        "description": "Projeleriniz için bizimle iletişime geçin, size en uygun çözümü birlikte bulalım."
+      },
+      {
+        "id": "content-1",
+        "type": "content",
+        "title": "Bize Ulaşın",
+        "content": "Aşağıdaki formu doldurarak bizimle iletişime geçebilirsiniz. En kısa sürede size geri dönüş yapacağız."
+      },
+      {
+        "id": "features-1",
+        "type": "features",
+        "items": [
+          {
+            "icon": "mail",
+            "title": "E-posta",
+            "description": "info@demovitrin.com"
+          },
+          {
+            "icon": "phone",
+            "title": "Telefon",
+            "description": "+90 555 123 45 67"
+          },
+          {
+            "icon": "map-pin",
+            "title": "Adres",
+            "description": "İstanbul, Türkiye"
+          },
+          {
+            "icon": "clock",
+            "title": "Çalışma Saatleri",
+            "description": "Pzt-Cum: 09:00 - 18:00"
+          }
+        ],
+        "title": "İletişim Bilgileri"
+      },
+      {
+        "id": "content-2",
+        "type": "content",
+        "title": "Sosyal Medya",
+        "content": "Bizi sosyal medya hesaplarımızdan da takip edebilirsiniz."
+      }
+    ],
+    "meta_title": "İletişim - Demo Vitrin",
+    "meta_description": "Demo Vitrin ile iletişime geçin. Telefon, e-posta ve iletişim formu.",
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 5,
+    "created_at": "2025-10-11T19:35:00.000Z",
+    "updated_at": "2025-10-11T19:36:27.000Z"
+  },
+  {
+    "id": "8a388e24-a714-11f0-b978-7df75ef09a30",
+    "title": "Paketlerimiz",
+    "slug": "paketlerimiz",
+    "description": "Hizmet paketlerimiz ve fiyatlandırma",
+    "content": [
+      {
+        "id": "hero-1",
+        "type": "hero",
+        "title": "Paketlerimiz",
+        "subtitle": "Size Özel Çözümler",
+        "description": "İhtiyaçlarınıza uygun en iyi çözümü bulmak için paketlerimizi inceleyin"
+      }
+    ],
+    "meta_title": "Paketlerimiz - Demo Vitrin",
+    "meta_description": "Web tasarım ve yazılım paketlerimizi inceleyin. Size en uygun paketi bulun.",
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 2,
+    "created_at": "2025-10-12T02:38:30.000Z",
+    "updated_at": "2025-10-12T02:38:30.000Z"
+  },
+  {
+    "id": "adc83dfe-61e9-4f54-b65c-b0b5fc080ced",
+    "title": "Sosyal Medya Yönetimi",
+    "slug": "sosyal-medya-yonetimi",
+    "description": null,
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Sosyal Medya Yönetimi",
+          "subtitle": "Profesyonel Sosyal Medya Çözümleri",
+          "description": "İçerik üretimi, topluluk yönetimi ve sosyal medya reklamları ile markanızı büyütün."
+        },
+        {
+          "id": "features-box-1",
+          "type": "features-box",
+          "items": [
+            {
+              "icon": "Zap",
+              "title": "İçerik Stratejisi",
+              "description": "Hedef kitlenize uygun içerik takvimi ve planlama."
+            },
+            {
+              "icon": "Shield",
+              "title": "Topluluk Yönetimi",
+              "description": "Yorumlar, mesajlar ve etkileşimlerin profesyonel yönetimi."
+            },
+            {
+              "icon": "Star",
+              "title": "Görsel Üretimi",
+              "description": "Her platforma özel profesyonel görseller ve videolar."
+            },
+            {
+              "icon": "Target",
+              "title": "Analiz & Raporlama",
+              "description": "Detaylı performans raporları ve stratejik öneriler."
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Sosyal Medyada Güçlü Bir Varlık",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Ücretsiz Analiz",
+          "description": "Stratejik içerik planlama ve topluluk yönetimi ile markanızı sosyal medyada öne çıkarın."
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "label": "Yönetilen Hesap",
+              "value": "100+"
+            },
+            {
+              "label": "Aylık İçerik",
+              "value": "2000+"
+            },
+            {
+              "label": "Ortalama Etkileşim",
+              "value": "%8.5"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Sosyal Medya Başarılarımız"
+        },
+        {
+          "id": "columns-1",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Hizmetlerimiz",
+          "columns": [
+            {
+              "id": "col-1",
+              "title": "İçerik Üretimi",
+              "content": "• Görsel tasarımı\n• Video prodüksiyon\n• Copywriting\n• Hashtag stratejisi"
+            },
+            {
+              "id": "col-2",
+              "title": "Hesap Yönetimi",
+              "content": "• Günlük paylaşım\n• Yorum yönetimi\n• Mesaj yanıtlama\n• Kriz yönetimi"
+            },
+            {
+              "id": "col-3",
+              "title": "Reklam Kampanyaları",
+              "content": "• Facebook Ads\n• Instagram Ads\n• LinkedIn Ads\n• Influencer iş birlikleri"
+            }
+          ]
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Sosyal Medyada Fark Yaratın!",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Hemen Başla",
+          "description": "Ücretsiz sosyal medya analizi için hemen iletişime geçin"
+        }
+      ]
+    },
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 7,
+    "created_at": "2025-10-12T00:17:58.000Z",
+    "updated_at": "2025-10-12T00:17:58.000Z"
+  },
+  {
+    "id": "ba9dcc7e-fd5f-4fd6-993b-98909d7d7a3b",
+    "title": "Mobil Uygulama",
+    "slug": "mobil-uygulama",
+    "description": null,
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Mobil Uygulama Geliştirme",
+          "subtitle": "iOS & Android Uygulamaları",
+          "description": "Native ve cross-platform teknolojilerle kullanıcı dostu mobil uygulamalar geliştiriyoruz."
+        },
+        {
+          "id": "features-box-1",
+          "type": "features-box",
+          "items": [
+            {
+              "icon": "Zap",
+              "title": "Native Geliştirme",
+              "description": "Swift (iOS) ve Kotlin (Android) ile yüksek performanslı uygulamalar."
+            },
+            {
+              "icon": "Shield",
+              "title": "Cross-Platform",
+              "description": "React Native ve Flutter ile tek kod ile her iki platform."
+            },
+            {
+              "icon": "Star",
+              "title": "UI/UX Tasarım",
+              "description": "Sezgisel ve modern arayüz tasarımları."
+            },
+            {
+              "icon": "Target",
+              "title": "API Entegrasyonu",
+              "description": "Backend sistemleri ve 3. parti servislerle entegrasyon."
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Cebinizde Güçlü Çözümler",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Proje Başlat",
+          "description": "Modern teknolojiler ve kullanıcı odaklı tasarımlarla mobil uygulamalar geliştiriyoruz."
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "label": "Geliştirilen Uygulama",
+              "value": "80+"
+            },
+            {
+              "label": "Aktif Kullanıcı",
+              "value": "500K+"
+            },
+            {
+              "label": "Ortalama Puan",
+              "value": "4.7"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Mobil Uygulama İstatistiklerimiz"
+        },
+        {
+          "id": "columns-1",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Teknoloji Stack",
+          "columns": [
+            {
+              "id": "col-1",
+              "title": "iOS",
+              "content": "• Swift / SwiftUI\n• Xcode\n• Core Data\n• Push Notifications"
+            },
+            {
+              "id": "col-2",
+              "title": "Android",
+              "content": "• Kotlin / Jetpack Compose\n• Android Studio\n• Room Database\n• Firebase"
+            },
+            {
+              "id": "col-3",
+              "title": "Cross-Platform",
+              "content": "• React Native\n• Flutter\n• Expo\n• Native modules"
+            }
+          ]
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Mobil Uygulama Fikrini Gerçeğe Dönüştürün!",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Hemen Başla",
+          "description": "Ücretsiz danışmanlık ve teklif için iletişime geçin"
+        }
+      ]
+    },
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 4,
+    "created_at": "2025-10-12T00:17:58.000Z",
+    "updated_at": "2025-10-12T00:17:58.000Z"
+  },
+  {
+    "id": "c55239a1-63bb-4f1e-99a7-6625ff3bdc84",
+    "title": "Grafik Tasarım",
+    "slug": "grafik-tasarim",
+    "description": null,
+    "content": {
+      "sections": [
+        {
+          "id": "hero-1",
+          "type": "hero",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#f8fafc"
+          },
+          "title": "Grafik Tasarım Hizmetleri",
+          "subtitle": "Görsel İletişimde Yaratıcı Çözümler",
+          "description": "Logo, kurumsal kimlik, sosyal medya görselleri ve daha fazlası için profesyonel grafik tasarım."
+        },
+        {
+          "id": "features-box-1",
+          "type": "features-box",
+          "items": [
+            {
+              "icon": "Zap",
+              "title": "Logo Tasarımı",
+              "description": "Markanızı temsil eden özgün ve akılda kalıcı logolar."
+            },
+            {
+              "icon": "Shield",
+              "title": "Kurumsal Kimlik",
+              "description": "Kartvizit, antetli kağıt, zarf ve tüm kurumsal materyaller."
+            },
+            {
+              "icon": "Star",
+              "title": "Sosyal Medya",
+              "description": "Instagram, Facebook ve LinkedIn için göz alıcı görseller."
+            },
+            {
+              "icon": "Target",
+              "title": "Baskı Tasarımı",
+              "description": "Broşür, katalog, afiş ve reklam panosu tasarımları."
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Yaratıcı Görsel Çözümler",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Portföy Görüntüle",
+          "description": "Markanızın hikayesini güçlü görsellerle anlatın."
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "items": [
+            {
+              "label": "Logo Tasarımı",
+              "value": "400+"
+            },
+            {
+              "label": "Sosyal Medya Görseli",
+              "value": "5000+"
+            },
+            {
+              "label": "Mutlu Müşteri",
+              "value": "250+"
+            }
+          ],
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Grafik Tasarım Çalışmalarımız"
+        },
+        {
+          "id": "columns-1",
+          "type": "columns",
+          "style": {
+            "padding": "large",
+            "backgroundColor": "#ffffff"
+          },
+          "title": "Hizmet Alanlarımız",
+          "columns": [
+            {
+              "id": "col-1",
+              "title": "Marka Kimliği",
+              "content": "• Logo tasarımı\n• Kurumsal kimlik\n• Marka kılavuzu\n• Tipografi"
+            },
+            {
+              "id": "col-2",
+              "title": "Dijital Tasarım",
+              "content": "• Sosyal medya görselleri\n• Web banner\n• Email template\n• Animasyon"
+            },
+            {
+              "id": "col-3",
+              "title": "Baskı Ürünleri",
+              "content": "• Broşür & Katalog\n• Kartvizit\n• Afiş & Billboard\n• Ambalaj tasarımı"
+            }
+          ]
+        },
+        {
+          "id": "cta-1",
+          "type": "cta",
+          "style": {
+            "padding": "large",
+            "textColor": "#ffffff",
+            "backgroundColor": "transparent"
+          },
+          "title": "Markanıza Görsel Kimlik Kazandırın!",
+          "buttonUrl": "/iletisim",
+          "buttonText": "Hemen Başla",
+          "description": "Ücretsiz görsel danışmanlığı için hemen iletişime geçin"
+        }
+      ]
+    },
+    "meta_title": null,
+    "meta_description": null,
+    "meta_keywords": null,
+    "is_active": 1,
+    "display_order": 6,
+    "created_at": "2025-10-12T00:17:58.000Z",
+    "updated_at": "2025-10-12T00:17:58.000Z"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "158b4af6-a6b2-11f0-af23-eb6435dcb1e1",
+    "section_title": "Hakkımızda",
+    "section_content": "Yazılım ajansı olarak, işletmelerin dijital dönüşüm süreçlerinde yanlarında oluyoruz. Modern teknolojiler kullanarak, müşterilerimize özel çözümler geliştiriyoruz.",
+    "section_order": 1,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:44.000Z",
+    "updated_at": "2025-10-11T14:53:44.000Z"
+  },
+  {
+    "id": "158b4c90-a6b2-11f0-af23-eb6435dcb1e1",
+    "section_title": "Misyonumuz",
+    "section_content": "Müşterilerimizin iş süreçlerini dijitalleştirerek, verimliliği artırmak ve rekabet avantajı sağlamak.",
+    "section_order": 2,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:44.000Z",
+    "updated_at": "2025-10-11T14:53:44.000Z"
+  },
+  {
+    "id": "158b4d08-a6b2-11f0-af23-eb6435dcb1e1",
+    "section_title": "Vizyonumuz",
+    "section_content": "Türkiye'nin en güvenilir ve yenilikçi yazılım ajansı olmak.",
+    "section_order": 3,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:44.000Z",
+    "updated_at": "2025-10-11T14:53:44.000Z"
+  },
+  {
+    "id": "158b4d3a-a6b2-11f0-af23-eb6435dcb1e1",
+    "section_title": "Değerlerimiz",
+    "section_content": "Kalite, güvenilirlik, yenilikçilik ve müşteri memnuniyeti bizim için en önemli değerlerdir.",
+    "section_order": 4,
+    "is_active": 1,
+    "created_at": "2025-10-11T14:53:44.000Z",
+    "updated_at": "2025-10-11T14:53:44.000Z"
+  }
+]
